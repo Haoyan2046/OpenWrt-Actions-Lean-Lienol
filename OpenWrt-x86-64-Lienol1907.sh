@@ -2,7 +2,7 @@
 #!/bin/bash
 
 # 安装额外依赖软件包
-# sudo -E apt-get -y install rename
+sudo -E apt-get -y install rename
 
 # 更新feeds文件
 sed -i 's#src-git luci https://github.com/Lienol/openwrt-luci.git;17.01#src-git luci https://github.com/Lienol/openwrt-luci.git;19.07#g' feeds.conf.default #更换luci版本
